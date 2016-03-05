@@ -57,6 +57,14 @@ body {
   width: 960px;
 }
 
+h1 {
+	font-size: 2em;
+	color: whitesmoke;
+	text-shadow: 1px 4px 7px #333;
+	margin-top: 20px;
+	margin-bottom: -100px;
+}
+
 /*--- Kick ---*/
 #kick {
   width: 300px;

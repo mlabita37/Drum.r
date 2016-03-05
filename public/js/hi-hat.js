@@ -44,9 +44,24 @@ $(window).keydown(function (e) {
     e.preventDefault();
     loadHihat();
     changePadColor('#hi-hat', 'magenta', 'gold');
+    hatHit();
   }
 });
 };
+
+// Change width & height on hit
+function hatHit(){
+  $('#hi-hat').css({
+    'width' : '190px',
+    'height' : '190px'
+  });
+  setTimeout(function(){
+    $('#hi-hat').css({
+      'width' : '200px',
+      'height' : '200px'
+    },250);
+  });
+}
 
 $(function(){
   clickHiHat();
