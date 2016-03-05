@@ -1,0 +1,237 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+}
+body {
+	line-height: 1;
+	color: black;
+	background: white;
+}
+ol, ul {
+	list-style: none;
+}
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+}
+caption, th, td {
+	text-align: left;
+	font-weight: normal;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: "";
+}
+blockquote, q {
+	quotes: "" "";
+}
+
+/*---MAIN----------------------------------------------
+-----------------------------------------------------*/
+body {
+  background-color: mediumaquamarine;
+  text-align: center;
+  font-family: 'Philosopher', sans-serif;
+  padding: 0;
+  text-align: center;
+  margin: 0 auto;
+  width: 960px;
+}
+
+/*--- Kick ---*/
+#kick {
+  width: 300px;
+  height: 250px;
+  border-radius: 5px;
+  background-color: mediumspringgreen;
+  position: absolute;
+  margin: 130px 0 0 330px;
+  z-index: -1;
+  border: 5px solid #494DC7;
+  box-shadow: -1px 2px 15px #333;
+}
+
+#front-hoop {
+  	border-top: 5px solid #494DC7;
+    width: 100%;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+#back-hoop {
+  	border-top: 5px solid #494DC7;
+    width: 100%;
+    border-radius: 5px;
+    margin-top: 200px;
+}
+
+#pedal {
+  position: absolute;
+  margin: 390px 0 0 471px;
+  width: 46px;
+  height: 150px;
+  background: silver;
+  padding: 0;
+  border-radius: 15px;
+  z-index: -1;
+  box-shadow: -1px 1px 15px black;
+}
+
+#beater {
+  position: absolute;
+  margin: 389px 0 0 492px;
+  width: 4px;
+  height: 40px;
+  background: black;
+  border-radius: 5px;
+  padding: 0;
+  z-index: 1;
+  box-shadow: -1px 17px 15px black;
+}
+#knob {
+  position: absolute;
+  width: 40px;
+  height: 36px;
+  background-color: white;
+  margin: 420px 0 0 474px;
+  z-index: 200;
+  box-shadow: -1px 5px 15px black;
+  border-radius: 10px;
+}
+
+/*--- Snare ---*/
+#snare {
+  width: 190px;
+  height: 190px;
+  border-radius: 190px;
+  background-color: linen;
+  position: absolute;
+  margin: 370px 0 0 220px;
+  border: 15px double #494DC7;
+  box-shadow: -1px 4px 5px #494DC7;
+}
+
+/*--- Hi-hat ---*/
+#hi-hat{
+  width: 200px;
+  height: 200px;
+  background-color: gold;
+  position: absolute;
+  margin: 349px 0 0 80px;
+  border-radius: 200px;
+  box-shadow: -1px 4px 5px #333;
+  font-size: 3em;
+  line-height: 4.2em;
+  /*background: -webkit-repeating-radial-gradient(black, black 0.1px, gold 5px, gold 10px);
+  background: -moz-repeating-radial-gradient(black, black 0.1px, gold 5px, gold 10px);
+  background: -ms-repeating-radial-gradient(black, black 0.1px, gold 5px, gold 10px);
+  background: -o-repeating-radial-gradient(black, black 0.1px, gold 5px, gold 10px);
+  background: repeating-radial-gradient(black, black 0.1px, gold 5px, gold 10px);*/
+}
+
+/*--- Percussion ---*/
+#perc01 {
+  background-color: darkorange;
+}
+
+/*--- Toms ---*/
+#tom1 {
+  width: 130px;
+  height: 130px;
+  border-radius: 160px;
+  background-color: linen;
+  position: absolute;
+  margin: 220px 0 0 315px;
+  border: 10px double #494DC7;
+  box-shadow: -1px 4px 5px #494DC7;
+}
+
+#tom2 {
+  width: 170px;
+  height: 170px;
+  background-color: linen;
+  position: absolute;
+  margin: 210px 0 0 470px;
+  border: 10px double #494DC7;
+  border-radius: 170px;
+  box-shadow: -1px 4px 5px #494DC7;
+}
+
+#floorTom {
+  width: 210px;
+  height: 210px;
+  background-color: linen;
+  position: absolute;
+  margin: 372px 0 0 561px;
+  border: 10px double #494DC7;
+  border-radius: 210px;
+  box-shadow: -1px 4px 5px #494DC7;
+  z-index: -1;
+}
+
+/*--- Cymbals ---*/
+#crash1 {
+  position: absolute;
+  background-color: gold;
+  width: 220px;
+  height: 220px;
+  border-radius: 220px;
+  box-shadow: -1px 5px 5px #333;
+  line-height: 4.6em;
+  color: #333;
+  font-size: 3em;
+  margin: 80px 0 0 120px;
+  z-index: 100;
+  /*background: -webkit-repeating-radial-gradient(black, black 0.1px, gold 5px, gold 10px);
+  background: -moz-repeating-radial-gradient(black, black 0.1px, gold 5px, gold 10px);
+  background: -ms-repeating-radial-gradient(black, black 0.1px, gold 5px, gold 10px);
+  background: -o-repeating-radial-gradient(black, black 0.1px, gold 5px, gold 10px);
+  background: repeating-radial-gradient(black, black 0.1px, gold 5px, gold 10px);*/
+}
+
+#crash2 {
+  position: absolute;
+  background-color: gold;
+  width: 220px;
+  height: 220px;
+  border-radius: 220px;
+  box-shadow: -1px 5px 5px #333;
+  line-height: 4.6em;
+  color: #333;
+  font-size: 3em;
+  margin: 60px 0 0 620px;
+  z-index: 120;
+}
+
+#ride {
+  position: absolute;
+  background-color: gold;
+  width: 250px;
+  height: 250px;
+  box-shadow: -1px 5px 5px #333;
+  line-height: 5.2em;
+  color: #333;
+  font-size: 3em;
+  border-radius: 200px;
+  margin: 260px 0 0 675px;
+  z-index: 100;
+}
