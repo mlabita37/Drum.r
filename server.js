@@ -77,7 +77,7 @@ app.get('/music/crash2', function(req, res){
     readStream.pipe(res);
 });
 
-var port = 3000;
+var port = process.env.PORT || 3030;
 app.listen(port, function(){
   console.log("...listening on " + port);
 });
