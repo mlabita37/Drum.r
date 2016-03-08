@@ -1,3 +1,11 @@
+/*
+~ Drum.r ~
+Web Development and Design by Michael Labita
+© 2016 - Michael Labita
+*/
+
+/*-  RESET
+----------------------------------------------------------------------*/
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -16,7 +24,7 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 	font-family: inherit;
 	vertical-align: baseline;
 }
-/* remember to define focus styles! */
+
 :focus {
 	outline: 0;
 }
@@ -28,7 +36,7 @@ body {
 ol, ul {
 	list-style: none;
 }
-/* tables still need 'cellspacing="0"' in the markup */
+
 table {
 	border-collapse: separate;
 	border-spacing: 0;
@@ -45,10 +53,10 @@ blockquote, q {
 	quotes: "" "";
 }
 
-/*---MAIN----------------------------------------------
------------------------------------------------------*/
+/*-  MAIN
+----------------------------------------------------------------------*/
 body {
-  background-color: mediumaquamarine;
+	background: url("https://img1.etsystatic.com/000/0/6352506/il_570xN.320241735.jpg") center center fixed;
   text-align: center;
   font-family: 'Philosopher', sans-serif;
   padding: 0;
@@ -65,7 +73,18 @@ h1 {
 	margin-bottom: -100px;
 }
 
-/*--- Kick ---*/
+#rug {
+	background: url('/images/rug.jpg') no-repeat center center fixed;
+	text-align: center;
+	margin-top: 30px;
+	width: 84%;
+	height: 600px;
+	position: absolute;
+	z-index: -5;
+}
+
+/*-  KICK
+----------------------------------------------------------------------*/
 #kick {
   width: 300px;
   height: 250px;
@@ -126,7 +145,8 @@ h1 {
   border-radius: 10px;
 }
 
-/*--- Snare ---*/
+/*-  SNARE
+----------------------------------------------------------------------*/
 #snare {
   width: 190px;
   height: 190px;
@@ -138,7 +158,8 @@ h1 {
   box-shadow: -1px 4px 5px #494DC7;
 }
 
-/*--- Hi-hat ---*/
+/*-  HI-HAT
+----------------------------------------------------------------------*/
 #hi-hat{
   width: 200px;
   height: 200px;
@@ -156,7 +177,8 @@ h1 {
   background: repeating-radial-gradient(black, black 0.1px, gold 5px, gold 10px);*/
 }
 
-/*--- Percussion ---*/
+/*-  PERCUSSION
+----------------------------------------------------------------------*/
 #perc01 {
   background-color: darkorange;
 }
@@ -172,7 +194,8 @@ h1 {
   transform: rotate(-24deg);
 }
 
-/*--- Toms ---*/
+/*-  TOMS
+----------------------------------------------------------------------*/
 #tom1 {
   width: 130px;
   height: 130px;
@@ -207,7 +230,8 @@ h1 {
   z-index: -1;
 }
 
-/*--- Cymbals ---*/
+/*-  CYMBALS
+----------------------------------------------------------------------*/
 #crash1 {
   position: absolute;
   background-color: gold;
@@ -255,8 +279,8 @@ h1 {
   z-index: 100;
 }
 
-
-
+/*-  CONTROLS
+----------------------------------------------------------------------*/
 
 #modal {
 	top: 0;
@@ -307,14 +331,16 @@ h3 {
 }
 
 #open-modal {
-	margin-top: 700px;
-	font-size: 1.5em;
+	margin-top: 600px;
+	font-size: 1em;
 	border-radius: 20px;
-	width: 200px;
-	height: 50px;
+	width: 130px;
+	height: 40px;
 	text-align: center;
+	font-family: 'Philosopher', sans-serif;
+	background-color: #333;
+	color: white;
 }
-
 .controls {
 	color: lightblue;
 	position: absolute;
