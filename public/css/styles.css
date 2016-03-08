@@ -161,6 +161,17 @@ h1 {
   background-color: darkorange;
 }
 
+#cowbell {
+	position: absolute;
+	margin: 310px 0 0 259px;
+	border-bottom: 100px solid #333;
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	height: 0;
+	width: 40px;
+  transform: rotate(-24deg);
+}
+
 /*--- Toms ---*/
 #tom1 {
   width: 130px;
@@ -242,4 +253,106 @@ h1 {
   border-radius: 200px;
   margin: 260px 0 0 675px;
   z-index: 100;
+}
+
+
+
+
+#modal {
+	top: 0;
+	left: 0;
+	position: relative;
+	display: none;
+	width: 100%;
+	height: 1000px;
+	background-color: rgba(0, 0, 0, .4);
+	z-index: 120;
+	margin: 0 auto;
+}
+
+#close {
+  float: right;
+	width: 40px;
+	height: 40px;
+	font-size: 2em;
+	line-height: 0.5em;
+}
+
+.modal-content {
+  position: relative;
+  margin: 0 30%;
+  top: 50px;
+  width: 40%;
+}
+
+.modal-header {
+  position: absolute;
+  width: 100%;
+	font-size: 1.5em;
+	color: white;
+}
+
+.modal-body {
+  position: absolute;
+  width: 100%;
+  top: 50px;
+}
+
+img {
+  width: 100%;
+}
+
+h3 {
+  display: inline-block;
+}
+
+#open-modal {
+	margin-top: 700px;
+	font-size: 1.5em;
+	border-radius: 20px;
+	width: 200px;
+	height: 50px;
+	text-align: center;
+}
+
+.controls {
+	color: lightblue;
+	position: absolute;
+	font-size: 2em;
+}
+
+.kick-2 {
+	margin: 70px 0 0 130px;
+}
+
+.snare-2 {
+	margin: 50px 0 0 130px;
+}
+
+.tom1-2 {
+	margin: 180px 0 0 70px;
+}
+
+.tom2-2 {
+	margin: 140px 0 0 100px;
+}
+
+.flTom-2 {
+	margin: 120px 0 0 100px;
+}
+
+.hiHat-2 {
+	margin: 380px 0 0 -175px;
+}
+
+.crash1-2{
+	margin: 100px 0 0 100px;
+}
+
+.crash2-2 {
+	margin: 110px 0 0 100px;
+}
+
+.ride-2 {
+	margin: 90px 0 0 100px;
 }

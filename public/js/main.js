@@ -86,4 +86,13 @@ function key(){
 
 $(function(){
 key();
+
+$("#open-modal").on("click", function() {
+  $("#modal").toggle();
+});
+
+$("#close").on("click", function() {
+  $("#modal").toggle();
+});
+
 });

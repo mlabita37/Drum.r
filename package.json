@@ -1,5 +1,5 @@
 {
-  "name": "idrummer",
+  "name": "drum.r",
   "version": "1.0.0",
   "description": "A virtual drumset",
   "main": "server.js",
