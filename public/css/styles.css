@@ -77,7 +77,7 @@ h1 {
 	background: url('/images/rug.jpg') no-repeat center center fixed;
 	text-align: center;
 	margin-top: 30px;
-	width: 84%;
+	width: 830px;
 	height: 600px;
 	position: absolute;
 	z-index: -5;
@@ -113,7 +113,7 @@ h1 {
 
 #pedal {
   position: absolute;
-  margin: 390px 0 0 471px;
+  margin: 390px 0 0 471px;/*454*/
   width: 46px;
   height: 150px;
   background: silver;
@@ -125,7 +125,7 @@ h1 {
 
 #beater {
   position: absolute;
-  margin: 389px 0 0 492px;
+  margin: 389px 0 0 492px;/*475*/
   width: 4px;
   height: 40px;
   background: black;
@@ -139,7 +139,7 @@ h1 {
   width: 40px;
   height: 36px;
   background-color: white;
-  margin: 420px 0 0 474px;
+  margin: 420px 0 0 474px;/*475*/
   z-index: 200;
   box-shadow: -1px 5px 15px black;
   border-radius: 10px;
