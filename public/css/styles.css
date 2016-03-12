@@ -298,8 +298,10 @@ h1 {
   float: right;
 	width: 40px;
 	height: 40px;
-	font-size: 2em;
-	line-height: 0.5em;
+	font-size: 1em;
+	line-height: 0;
+	margin: 10px -276px 0 0;
+	border-radius: 10px;
 }
 
 .modal-content {
@@ -348,23 +350,23 @@ h3 {
 }
 
 .kick-2 {
-	margin: 70px 0 0 130px;
+	margin: 100px 0 0 130px;
 }
 
 .snare-2 {
-	margin: 50px 0 0 130px;
+	margin: 395px 0 0 12px;
 }
 
 .tom1-2 {
-	margin: 180px 0 0 70px;
+	margin: 219px 0 0 70px;
 }
 
 .tom2-2 {
-	margin: 140px 0 0 100px;
+	margin: 219px 0 0 235px;
 }
 
 .flTom-2 {
-	margin: 120px 0 0 100px;
+	margin: 385px 0 0 353px
 }
 
 .hiHat-2 {
@@ -372,13 +374,13 @@ h3 {
 }
 
 .crash1-2{
-	margin: 100px 0 0 100px;
+	margin: 148px 0 0 -63px;
 }
 
 .crash2-2 {
-	margin: 110px 0 0 100px;
+	margin: 140px 0 0 438px;
 }
 
 .ride-2 {
-	margin: 90px 0 0 100px;
+	margin: 350px 0 0 510px;
 }
